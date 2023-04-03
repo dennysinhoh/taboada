@@ -1,0 +1,46 @@
+body{   
+    background-color: rgb(48, 48, 48);
+    color: antiquewhite;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+} 
+
+header h1{   
+    font-size: 50px;
+    padding-top: 80px;
+     
+}
+
+header{ 
+    display: grid;
+    grid-auto-flow:column ;
+    grid-auto-columns: 33vw;
+}
+
+section{   
+    background-color: rgb(228, 213, 193);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    margin-top: -30px;
+}
+
+#botao{ 
+    background-color: rgb(12,112,242);
+    color: antiquewhite;
+    width: 150px;
+    height: 30px;
+    border-radius:  10px;
+    border: 0px;
+}
+
+.campo{ 
+    border-radius: 9px;
+    width: 180 px;
+    height: 30px;
+    margin-top: 10px;
+    border: 0px;
+}
